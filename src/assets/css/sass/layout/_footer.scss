@@ -1,0 +1,130 @@
+footer {
+    background-color: $mainColor;
+    padding-top: 70px;
+    color: #ffff;
+    margin-top: 50px;
+    .list-lltc {
+        padding-left: 28px;
+        li {
+            .link-list-footer {
+                color: $grayColor;
+                text-decoration: none;
+                letter-spacing: 1px;
+                font-size: 15px;
+                &:hover {
+                    color: $secColor;
+                }
+            }
+        }
+        @media (max-width: 768px) {
+            padding-left: 0px;
+        }
+    }
+    .contact {
+        margin-top: 20px;
+        position: relative;
+        .contact-item {
+            display: flex;
+            color: $grayColor;
+            font-size: 15px;
+            margin: 15px 0;
+            div {
+                a {
+                    color: $grayColor;
+                    text-decoration: none;
+                }
+            }
+            i {
+                color: $secColor;
+                padding-right: 15px;
+            }
+        }
+        &::before {
+            content: "";
+            position: absolute;
+            top: -44px;
+            left: -35px;
+            width: 1px;
+            height: 201%;
+            background-color: #434b73;
+        }
+    }
+    .social {
+        display: flex;
+        color: $grayColor;
+        margin-top: 30px;
+        a {
+            text-align: center;
+            text-decoration: none;
+            border-radius: 50% 50% 50% 50%;
+            padding: 4px 0 0 0;
+            width: 42px;
+            height: 42px;
+            line-height: 28px;
+            margin: 0 12px 5px 0;
+            color: #fff;
+            border: 1px solid $grayColor;
+            i {
+                vertical-align: middle;
+                display: inline-block;
+                font-size: 14px;
+            }
+        }
+    }
+    .copy {
+        margin-top: 30px;
+        .box {
+            border-top: 1px solid #434b73;
+            padding: 20px 0;
+            .copy-one {
+                padding: 8px 16px;
+                span {
+                    letter-spacing: 1px;
+                    font-size: 14px;
+                }
+            }
+            .nav {
+                .nav-item {
+                    .nav-link {
+                        color: #fff;
+                        letter-spacing: 1px;
+                        font-size: 14px;
+                        &:hover {
+                            color: $secColor;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media (max-width: 768px) {
+        text-align: center;
+        .box {
+            img {
+                width: 50% !important;
+            }
+        }
+        .contact {
+            .contact-item {
+                justify-content: center;
+            }
+        }
+        .social {
+            justify-content: center;
+        }
+        .list-lltc {
+            li {
+                &:before {
+                    display: none;
+                }
+            }
+        }
+        .copy {
+            .box {
+                .nav {
+                    justify-content: center !important;
+                }
+            }
+        }
+    }
+}

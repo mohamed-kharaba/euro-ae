@@ -1,0 +1,90 @@
+.navigation {
+    transition: all 0.5s ease-in-out;
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+    .top-menu {
+        padding: 11px 0;
+        font-size: 14px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+        transition: all 0.5s ease-in-out;
+        nav {
+            .nav-link {
+                color: #fff;
+                font-size: 12px;
+                letter-spacing: 1px;
+            }
+        }
+        @media (max-width: 786px) {
+            padding: 0;
+            nav {
+                justify-content: center !important;
+                .nav-link {
+                    padding: 2px 0;
+                }
+            }
+        }
+    }
+    .navbar {
+        .navbar-toggler {
+            background-color: #fff !important;
+        }
+        .navbar-brand {
+            img {
+                transition: all 0.5s ease-in-out;
+                width: 200px;
+            }
+            @media (max-width: 1200px) {
+                img {
+                    width: 40%;
+                }
+            }
+            @media (max-width: 991px) {
+                img {
+                    width: 45%;
+                }
+            }
+            @media (max-width: 500px) {
+                display: contents;
+                img {
+                    width: 25%;
+                }
+            }
+        }
+        .navbar-collapse {
+            .navbar-nav {
+                .nav-item {
+                    .nav-link {
+                        color: #fff;
+                        font-size: 14px;
+                        letter-spacing: 1px;
+                    }
+                    .dropdown-menu {
+                        background-color: $mainColor;
+                        border-color: #ffffff26;
+                        padding: 0;
+                        li {
+                            &:not(:last-of-type) {
+                                border-bottom: 1px solid $secColor;
+                            }
+                            a {
+                                padding: 10px 20px;
+                                color: #fff;
+                            }
+                            &:hover {
+                                a {
+                                    color: $mainColor;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            @media (max-width: 991px) {
+                background-color: $mainColor;
+                padding: 15px;
+                border-radius: 10px 0 10px 10px;
+            }
+        }
+    }
+}

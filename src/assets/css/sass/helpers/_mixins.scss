@@ -1,0 +1,41 @@
+// prefixes Mixin
+@mixin prefixer($property, $value, $prefixes: ()) {
+    @each $prefix in $prefixes {
+        #{'-' + $prefix + '-' + $property}: $value;
+    }
+    #{$property}: $value;
+}
+
+// transition Mixin
+@mixin transitions($arg...) {
+    -webkit-transition: $arg;
+    -moz-transition: $arg;
+    -o-transition: $arg;
+    transition: $arg;
+}
+
+//  even odd Mixin
+@mixin even() {
+    &:nth-child(even) {
+        @content;
+    }
+}
+
+@mixin odd() {
+    &:nth-child(odd) {
+        @content;
+    }
+}
+
+// Animation Mixin
+@mixin keyFrame($animation-name) {
+    @-webkit-keyframes #{$animation-name} {
+        @content;
+    }
+    @-moz-keyframes #{$animation-name} {
+        @content;
+    }
+    @keyframes #{$animation-name} {
+        @content;
+    }
+}
