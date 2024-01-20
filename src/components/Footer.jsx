@@ -7,8 +7,14 @@ const footer = () => {
                 <div className="row">
                     <div className="col-sm-12 col-md-3">
                         <div className="box">
-                            <a href="<?php echo $slash; ?>" title="Euro Training">
-                                <img src={Logo} alt="Euro Training" className="w-75 h-75" />
+                            <a
+                                href="<?php echo $slash; ?>"
+                                title="Euro Training">
+                                <img
+                                    src={Logo}
+                                    alt="Euro Training"
+                                    className="w-75 h-75"
+                                />
                             </a>
                         </div>
                     </div>
@@ -17,12 +23,20 @@ const footer = () => {
                             <h4 className="title-footer">Our Courses</h4>
                             <ul className="list-lltc">
                                 <li>
-                                    <Link reloadDocument className="link-list-footer" title="Euro Training - About Us" to={"/about"}>
+                                    <Link
+                                        reloadDocument
+                                        className="link-list-footer"
+                                        title="Euro Training - About Us"
+                                        to={"/about"}>
                                         About us
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link reloadDocument className="link-list-footer" title="Euro Training - About Us" to={"/contact"}>
+                                    <Link
+                                        reloadDocument
+                                        className="link-list-footer"
+                                        title="Euro Training - About Us"
+                                        to={"/contact"}>
                                         Contact us
                                     </Link>
                                 </li>
@@ -35,23 +49,16 @@ const footer = () => {
                             <div className="contact">
                                 <div className="contact-item">
                                     <div>
-                                        <i className="fas fa-map-marker-alt"></i>
-                                    </div>
-                                    <div>Dubai - UAE</div>
-                                </div>
-                                <div className="contact-item">
-                                    <div>
                                         <i className="fas fa-phone-alt"></i>
                                     </div>
                                     <div>
                                         <a
                                             className=""
                                             title="Euro Training Contact Number"
-                                            href="https://wa.me/00447492882996"
+                                            href="https://wa.me/00971585457333"
                                             target="_blank"
-                                            rel="noreferrer"
-                                        >
-                                            +44 7492 8829 96
+                                            rel="noreferrer">
+                                            00 971 58 545 7333
                                         </a>
                                     </div>
                                 </div>
@@ -60,9 +67,21 @@ const footer = () => {
                                         <i className="far fa-envelope"></i>
                                     </div>
                                     <div>
-                                        <a className="" title="Euro Training Email Address" href="mailto:sales@lltc.co">
-                                            info@euro-training.net
+                                        <a
+                                            className=""
+                                            title="Euro Training Email Address"
+                                            href="mailto:info@eurotrainingcenter.com">
+                                            info@eurotrainingcenter.com
                                         </a>
+                                    </div>
+                                </div>
+                                <div className="contact-item">
+                                    <div>
+                                        <i className="fas fa-map-marker-alt"></i>
+                                    </div>
+                                    <div>
+                                        Office 506 Central lake tower Buisness
+                                        bay
                                     </div>
                                 </div>
                             </div>

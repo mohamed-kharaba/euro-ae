@@ -1,121 +1,208 @@
 const Course3 = () => {
     return (
         <div className="data-view">
-            <h4>Overview:</h4>
+            <h4>Course Description:</h4>
 
-            <h3>Introduction:</h3>
+            <h5>Introduction:</h5>
 
             <p>
-                The ultimate aim of any person is to be happy. In this course,
-                we will discuss how to be happier specifically at your workplace
-                which in turn will increase your motivation, productivity, and
-                job satisfaction. This course also develops the necessary skills
-                for employees to improve their self-confidence and self-esteem
-                which are very important for career success.
+                This course brings together the key elements of financial
+                statement analysis. It will enable participants to ask the right
+                questions, see the real risks facing businesses and investors,
+                feel more confident in their ability to comment on business
+                activities and performance, and analyze financial health for
+                management. These skills and the required technical knowledge
+                will be put into practice throughout the course using
+                interactive examples and case studies, putting theory and
+                technique into context.
             </p>
 
-            <h3>Course Objectives:</h3>
+            <h5>Course Objectives:</h5>
 
-            <p>At the end of this course the participants will be able to:</p>
+            <p>At the end of this course the participants will be able to: :</p>
 
             <ul>
-                <li>Explain the science and art of being happy</li>
                 <li>
-                    Shift to a happy attitude at work and solidify
-                    employee/manager relations
+                    List and differentiate between the important components of
+                    basic financial statements.
                 </li>
-                <li>Increase work productivity and motivation on the job</li>
-                <li>Capitalize on the benefits of a happy work culture</li>
-                <li>Reduce personal anger and increase personal happiness</li>
+                <li>
+                    Explain financial statements' ratios and design Excel sheets
+                    and graphs for financial statements analysis.
+                </li>
+                <li>
+                    Give examples of creative accounting schemes and discuss the
+                    validity of the used accounting rules.
+                </li>
+                <li>
+                    Assess the quality of financial reports and evaluate the
+                    quality of the reported earnings and cash flows.
+                </li>
+                <li>
+                    • Analyze the financial position and performance of a mpany
+                    over a period of time and draw conclusions regarding its
+                    sustainability.
+                </li>
+                <li>
+                    Forecast financial statements based on the analysis of the
+                    historical performance of a company.
+                </li>
             </ul>
 
-            <h3>Targeted Audience:</h3>
+            <h5>TRAINING METHODOLOGY:</h5>
 
             <p>
-                All professional employees at all levels who want to understand
-                how happiness can increase work productivity, job satisfaction,
-                and motivation.&nbsp;Also, all individuals who need to improve
-                their relations with others at both the personal and work level.
+                This Leadership and Coaching Management Styles course consists
+                of five modules containing lecture content, skill assessments,
+                participative discussions, video presentations and delegate
+                exercises in order to create high impact training. This
+                Leadership and Coaching Management Styles course is designed to
+                be dynamic and highly interactive as well as educational. The
+                primary focus is to provide delegates with concepts and methods
+                which they can put to immediate use in the workplace.
             </p>
 
-            <h3>Course Outlines:</h3>
+            <h5>WHO SHOULD ATTEND?</h5>
+            <p>
+                This course is suitable for Advanced Financial Analysis
+                Accounting managers, Chief accountants, Financial accounts
+                managers, and anyone aspiring to enhance their Finance skills.
+                It's also beneficial for professionals looking to gain a better
+                understanding of management and Financial analysts.
+            </p>
 
-            <h3>Unit 1:&nbsp;The Science and Art of Happiness:</h3>
+            <h5>COURSE OUTLINE:</h5>
+
+            <h5>Unit 1: Introduction to Advanced Financial Analysis:</h5>
 
             <ul>
-                <li>Definition of happiness</li>
-                <li>Internal sources of happiness</li>
-                <li>External sources of happiness</li>
-                <li>Positive thinking</li>
-                <li>The ten negative styles of behaving</li>
-                <li>How negativism can harm your health</li>
-                <li>Secrets of happy employees</li>
+                <li>Users of financial data</li>
+                <li>
+                    Content of the annual financial report: Regional versus
+                    global standards
+                </li>
+                <li>
+                    Non-financial elements of the annual financial report and
+                    their importance :Emotional and cognitive biases affecting
+                    analysts’ judgment
+                </li>
+                <li>
+                    Understanding the income statement, balance sheet, and cash
+                    flow statement
+                </li>
+                <li>Other comprehensive income components</li>
             </ul>
 
-            <h3>Unit 2: Shifting to a Happy Attitude at Work:</h3>
+            <h5>
+                Unit 2: Basics of Industry Analysis and Analyzing Ratios Using
+                Excel:
+            </h5>
 
             <ul>
                 <li>
-                    The 7 steps approach to changing attitudes
+                    Top-down approach for analysis
                     <ul>
-                        <li>Deciding to change today</li>
-                        <li>Shifting your focus</li>
-                        <li>Being curious</li>
-                        <li>Developing an attitude of gratitude</li>
-                        <li>Deciding not to be perfect</li>
-                        <li>Believing in yourself</li>
-                        <li>Taking action</li>
+                        <li>
+                            Macroeconomic factors to assess country exposure
+                            <ul>
+                                <li>
+                                    Indicators of GDP, unemployment rates,
+                                    inflation, and interest rates
+                                </li>
+                                <li>
+                                    Deficit-to-GDP, debt-to-GDP and GDP growth
+                                    rates
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            Industry analysis: understanding Michael Porter's
+                            five forces shaping an industry's long term
+                            profitability
+                            <ul>
+                                <li>
+                                    Starbucks, Apple Inc., Nike, and McDonald’s
+                                    cases
+                                </li>
+                            </ul>
+                        </li>
                     </ul>
                 </li>
-                <li>Improving self-confidence</li>
-                <li>Improving self-esteem</li>
-                <li>Characteristics of high self-esteem people</li>
+                <li>Common size analysis to improve comparability</li>
+                <li>Calculating trends and growth patterns</li>
             </ul>
 
-            <h3>Unit 3: Increasing Work Productivity With Happiness:</h3>
+            <h5>
+                Unit 3: Ratio Analysis to Assess Key Aspects of Company
+                Performance:
+            </h5>
 
             <ul>
-                <li>The right physical environment and work atmosphere</li>
-                <li>The appreciation system</li>
-                <li>Happy work protocols for different occasions</li>
-                <li>Motivating management styles</li>
-                <li>Happy employee/manager relationship</li>
-                <li>The reward system</li>
+                <li>Profitability</li>
+                <li>Liquidity</li>
+                <li>Efficiency and working capital management</li>
+                <li>Financing structure and risk</li>
+                <li>Altman Z-score to assess potential bankruptcy</li>
+                <li>Using graphical representation</li>
                 <li>
-                    The carrot and stick approach does not increase work
-                    happiness
-                </li>
-                <li>Sources of positive energy at work</li>
-            </ul>
-
-            <h3>Unit 4:&nbsp;Benefits of a Happy Work Culture:</h3>
-
-            <ul>
-                <li>Happy employees are more productive and motivated</li>
-                <li>
-                    Happy employees fix work problems rather than complain about
-                    them
-                </li>
-                <li>Happy employees have more energy and optimism</li>
-                <li>Happy employees are better decision-makers</li>
-                <li>Happy employees are more loyal to their company</li>
-                <li>Happy employees learn faster</li>
-                <li>
-                    Happy employees have more courage/initiative to do new tasks
+                    Financial cosmetics and creative accounting
+                    <ul>
+                        <li>Signals to read from inventory balances</li>
+                        <li>LIFO liquidation technique</li>
+                        <li>
+                            Evaluating how capitalizing versus expensing costs
+                            affect financial statements and ratios
+                            <ul>
+                                <li>Interest capitalization</li>
+                                <li>
+                                    Research and development costs
+                                    capitalization
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
                 </li>
             </ul>
 
-            <h3>
-                Unit 5:&nbsp;Reducing Anger at Work While Increasing Happiness:
-            </h3>
+            <h5>Unit 4: Assessing the Quality of Financial Reports</h5>
 
             <ul>
-                <li>Definition of anger</li>
-                <li>Triggers of anger</li>
-                <li>Proper techniques to control anger</li>
-                <li>Tips to stay cool, calm, and collected</li>
-                <li>Effective strategies for anger management</li>
-                <li>Ways to reduce personal anger and increase happiness?</li>
+                <li>
+                    Framework for assessing a company's quality of financial
+                    reports
+                </li>
+                <li>
+                    Potential problems that affect the quality of financial
+                    reports
+                </li>
+                <li>
+                    Beneish model: M-score to describe the degree to which
+                    earnings are manipulated
+                </li>
+                <li>Evaluating the earnings quality of a company</li>
+                <li>Evaluating the cash flow quality of a company</li>
+                <li>Indicators of balance sheet quality</li>
+                <li>Sources of information about risk</li>
+                <li>Case study: investment decision at Nestle</li>
+            </ul>
+
+            <h5>Unit 5: Financial Forecasting Techniques for Analysts</h5>
+
+            <ul>
+                <li>Revenue forecasting: bottom-up versus top-down</li>
+                <li>Forecasting cost of goods sold</li>
+                <li>Forecasting fixed and variable costs</li>
+                <li>
+                    Forecasting balance sheet accounts
+                    <ul>
+                        <li>Using days sales outstanding</li>
+                        <li>Using days of inventory on hand</li>
+                        <li>Using days of payables</li>
+                        <li>Fixed assets forecasting</li>
+                        <li>Retained earnings and dividend pay-out policy</li>
+                    </ul>
+                </li>
+                <li>Building a 3-year forecast for Johnson & Johnson</li>
             </ul>
         </div>
     );

@@ -39,10 +39,10 @@ const Contact = () => {
                                                     <a
                                                         className=""
                                                         title=" Contact Number"
-                                                        href="https://wa.me/00447492882996"
+                                                        href="https://wa.me/00971585457333"
                                                         target="_blank"
                                                         rel="noreferrer">
-                                                        +44 7492 8829 96
+                                                        00 971 58 545 7333
                                                     </a>
                                                 </span>
                                             </div>
@@ -54,7 +54,7 @@ const Contact = () => {
                                             <div className="det">
                                                 <h4>Email us directly</h4>
                                                 <span>
-                                                    info@euro-training.net
+                                                    info@eurotrainingcenter.com
                                                 </span>
                                             </div>
                                         </div>
@@ -64,7 +64,10 @@ const Contact = () => {
                                             </div>
                                             <div className="det">
                                                 <h4>Our Location</h4>
-                                                <span>Dubai - UAE</span>
+                                                <span>
+                                                    Office 506 Central lake
+                                                    tower Buisness bay
+                                                </span>
                                             </div>
                                         </div>
                                     </div>

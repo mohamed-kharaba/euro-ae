@@ -15,18 +15,18 @@ const Header = () => {
                                     <a
                                         className="nav-link"
                                         title="Euro Training Email Address"
-                                        href="mailto:sales@lltc.co">
+                                        href="mailto:info@eurotrainingcenter.com">
                                         <i className="fas fa-envelope pe-1"></i>
-                                        info@euro-training.net
+                                        info@eurotrainingcenter.com
                                     </a>
                                     <a
                                         className="nav-link"
                                         title="Euro Training Contact Number"
-                                        href="https://wa.me/00447492882996"
+                                        href="https://wa.me/00971585457333"
                                         target="_blank"
                                         rel="noreferrer">
                                         <i className="fas fa-phone-alt pe-1"></i>
-                                        +44 7492 8829 96
+                                        00 971 58 545 7333
                                     </a>
                                 </nav>
                             </div>
