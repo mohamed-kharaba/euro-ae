@@ -9,14 +9,28 @@ const Landing = () => {
     return (
         <>
             <div className="slide-up">
-                <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
+                <div
+                    id="carouselExampleIndicators"
+                    className="carousel slide"
+                    data-bs-ride="carousel">
                     <div className="carousel-inner">
                         <div className="carousel-lltc carousel-item active">
-                            <img src={slide2} className="d-block w-100" alt="Euro Training" />
+                            <img
+                                src={slide2}
+                                className="d-block w-100"
+                                alt="Euro Training"
+                            />
                             <div className="carousel-caption-lltc carousel-caption d-none d-md-block">
-                                <h2 className="city-title-slider">Euro Training</h2>
-                                <h6 className="course-title-slider">Choose The course Training of your favor</h6>
-                                <Link title="" to={"/programs"} className="btn btn-lltc mt-3">
+                                <h2 className="city-title-slider">
+                                    Euro Training
+                                </h2>
+                                <h6 className="course-title-slider">
+                                    Choose The course Training of your favor
+                                </h6>
+                                <Link
+                                    title=""
+                                    to={"/programs"}
+                                    className="btn btn-lltc mt-3">
                                     Show Courses
                                 </Link>
                             </div>
@@ -36,7 +50,11 @@ const Landing = () => {
                                         <h4>Course</h4>
                                         <h3>Find your course</h3>
                                         <p></p>
-                                        <Link reloadDocument title="Euro Training" to={"/programs"} className="btn btn-lltc">
+                                        <Link
+                                            reloadDocument
+                                            title="Euro Training"
+                                            to={"/programs"}
+                                            className="btn btn-lltc">
                                             Explore all course
                                         </Link>
                                     </div>
@@ -44,25 +62,52 @@ const Landing = () => {
 
                                 <div className="col-sm-12 col-lg-3">
                                     <div className="box-city tow">
-                                        <Link to="programs/1" title="" reloadDocument>
-                                            <img src={CS1012} alt="Euro Training" className="w-100" />
-                                            <span className="city-name">The Leadership Challenge: Inspire, Enable and Encourage</span>
+                                        <Link
+                                            to="programs/3"
+                                            title=""
+                                            reloadDocument>
+                                            <img
+                                                src={CS1012}
+                                                alt="Euro Training"
+                                                className="w-100"
+                                            />
+                                            <span className="city-name">
+                                                Advanced Financial Analysis
+                                            </span>
                                         </Link>
                                     </div>
                                 </div>
                                 <div className="col-sm-12 col-lg-3">
                                     <div className="box-city tow">
-                                        <Link to="programs/2" title="" reloadDocument>
-                                            <img src={LE1005} alt="Euro Training" className="w-100" />
-                                            <span className="city-name">Financial Analysis , Planning & Control</span>
+                                        <Link
+                                            to="programs/4"
+                                            title=""
+                                            reloadDocument>
+                                            <img
+                                                src={LE1005}
+                                                alt="Euro Training"
+                                                className="w-100"
+                                            />
+                                            <span className="city-name">
+                                                Safety and Health Manage
+                                            </span>
                                         </Link>
                                     </div>
                                 </div>
                                 <div className="col-sm-12 col-lg-3">
                                     <div className="box-city tow">
-                                        <Link reloadDocument to="programs/3" title="">
-                                            <img src={CS1011} alt="Euro Training" className="w-100" />
-                                            <span className="city-name">Sustaining a Motivating Work Culture</span>
+                                        <Link
+                                            reloadDocument
+                                            to="programs/6"
+                                            title="">
+                                            <img
+                                                src={CS1011}
+                                                alt="Euro Training"
+                                                className="w-100"
+                                            />
+                                            <span className="city-name">
+                                                Finance for Managers
+                                            </span>
                                         </Link>
                                     </div>
                                 </div>
